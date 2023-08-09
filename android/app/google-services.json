@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "311589018533",
+    "project_id": "noteapp-45fd8",
+    "storage_bucket": "noteapp-45fd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311589018533:android:fcdbd1dbe4bbae4a17e64c",
+        "android_client_info": {
+          "package_name": "com.example.noteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311589018533-apn3mkt4mcr93hr7f7utaksv1amjkco1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYgWXp0IQx-z6dF9_E5Wq6j140kvEtAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311589018533-apn3mkt4mcr93hr7f7utaksv1amjkco1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311589018533-m6b6d9obvmqcbffh09luo9i5o2nu4ipk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ruwis.firebaseCrud"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
