@@ -1,17 +1,13 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-
 import 'package:noteapp/listeleme.dart';
-
-
-
 import 'firebase_options.dart';
 
 Future<void> main() async {
-   WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
-);
+  );
   runApp(const MyApp());
 }
 
@@ -25,12 +21,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'NOTE APP',
       theme: ThemeData(
-       
         primarySwatch: Colors.deepPurple,
         useMaterial3: true,
       ),
-      home:  const ListelemePage(),
+      home: const ListelemePage(),
     );
   }
 }
-
